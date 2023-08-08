@@ -7,7 +7,7 @@ const Form = ({ isVisible, onClose, updateData, user, children }) => {
     return (
         <div className='fixed inset-0 bg-black bg-opacity-25 backdrop-blur-sm flex justify-center items-center'>
             <div className='w-[500px] flex flex-col'>
-                <button className='text-white text-xl' onClick={() => onClose()}>
+                <button className='text-white text-xl flex justify-end mr-4' onClick={() => onClose()}>
                     X
                 </button>
                 <div className='bg-white p-2 rounded'>
